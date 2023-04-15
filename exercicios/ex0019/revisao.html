@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisao</title>
+    <style>
+        .principal {
+            text-align: center;
+        }
+        p {
+        }
+
+
+        div {
+            width: 300px;
+        }
+
+        li:hover {
+            color: aquamarine;
+        }
+
+        ul:hover {
+            color: blue;
+
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        .si {
+            color: rgb(0, 0, 0);
+            background-color: rgb(186, 247, 247);
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border: 2px solid black;
+            text-align: center;
+            
+        }
+
+        .si:hover {
+            color: blue;
+            background-color: blue;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 900;
+            color: blue;
+            background-color: aqua;
+        }
+
+        a:active {
+            color: brown;
+        }
+
+        li > .prin {
+            display: none;
+        }
+
+        li:hover > .prin {
+            display: block;
+        }
+
+        .pr::before {
+            content:"⇐";
+            color: black;
+        }
+
+        .pr::after {
+            content:"⇐";
+            color: black;
+        }
+
+        .pr:visited {
+            color: brown;
+        }
+
+
+
+
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1 class="principal">Revisao principal</h1>
+    <h1>Revisao</h1>
+    <div>
+        <p>jdjklajdjjd</p>
+    </div>
+
+    <ul>
+        <li><a href=""></a></li>
+        <li>tem um link aqui</li>
+        <li>tem um link aqui</li>
+        
+    </ul>
+
+    <div>passe com o mouse para achar texto escondido
+        <p>texto escondido</p>
+    </div>
+
+    <p>
+        <div class="si">1</div>
+        <div class="si">2</div>
+        <div class="si">3</div>
+        <hr>
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank">canal do youtube</a></li>
+            <li><a href="https://gustavoguanabara.github.io" class="prin"> canal do youtube</a></li>
+            <li><a href="https://gustavoguanabara.github.io" class="pr">canal do youtube</a></li>
+        </ul>
+</body>
+</html>

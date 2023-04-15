@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: rgb(212, 181, 134);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            
+            box-shadow: 2px 2px 5px rgba(37, 34, 34, 0.596);
+            background-color: rgb(149, 179, 204);
+            padding: 7px;
+            border: 5px double rgb(133, 131, 134);
+        }
+
+        #principal {
+            text-align: center;
+            font-weight: 900;
+            text-shadow: 1px 1px 3px rgb(78, 72, 72);
+        }
+
+        nav {
+            text-align: center;           
+        }
+
+        nav > a {
+            text-decoration: none;
+            background-color: rgb(146, 163, 180);
+        }
+
+        nav:hover > a {
+            background-color: rgb(238, 132, 132);
+            
+        }
+
+        nav:active > a {
+            color: chartreuse;
+        }
+
+        main {
+            background-color: rgb(214, 215, 216);
+            padding: 7px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+            border-radius: 20px 5px;
+        }
+
+        article > aside {
+            background-color: rgb(157, 158, 158);
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-top: 15px;
+            text-align: center;           
+        }
+
+        footer > p {
+            text-align: center;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">site de games</h1>
+        <nav>
+            <a href="https://youtu.be/xid6i-BqELQ" target="_blank"> Você sabia games</a> <address>Voce sabia?</address><br>
+            <a href="https://youtu.be/oNEvbxlJ3LY"> Historia dos video games</a> <address>Nerdologia</address><br>
+            <a href="https://youtu.be/KzTpNEAfEWg">A era dos video games</a> <address>Portal multiplayer</address>
+        </nav>       
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Historia</h2>
+                <p>
+                    Em 1993 os jogos tiveram uma grande revoluçao em seus preços.
+                    mas apenas em 1998 que eles foram realmente aver uma melhora significativa,
+                    Pessoas de toda parte do mundo compravam jogos nas lojas de suas cidades.
+                    mais o verdadeira explosao de compras ocorreu no ano de 2004.
+                </p>
+                <aside>
+                    Artigo escrito por Adriano O.S
+                </aside>
+
+            </article>
+            <article>
+                <h2>games</h2>
+                <p>mario bros, mario kart, donkey kong, etc.</p>
+            </article>
+
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>principais noticias</h2>
+                <p>em 2006 uma das principais empresas de games tinha quebrado de acordo com os jornais NY york e america noticias. Informaçoes vazadas mostraram que estas empresas nao pagavam seus trabalhadores, e muitos nao tinham nem oque comer para trabalhar</p>
+
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Adriano O.S</p>
+    </footer>
+</body>
+</html>

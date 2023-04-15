@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(90deg, #D05BF0, #A24FF0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    text-align: center;
+    color: #F0DD1F;
+    text-shadow: 2px 3px 7px #000000;
+
+}
+
+.conteudo {
+    text-align: center;
+}
+
+mark {
+    background-color: aqua;
+}
+
+h1 {
+    color: #AAE02E;
+    text-shadow: 2px 2px 3px black;
+}
+
+p {
+    text-align: justify;
+}

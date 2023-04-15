@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/games-favicon.ico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 id="principal">Revisão</h1>
+    <h1>Paragrafos e quebras de linha</h1>
+    <p>paragrafo com a tag &lt;p&gt; e &lt;/p&gt;</p>
+    <p>quebra de texto tag &lt;br&gt;</p>
+    <p>simbolos especiais: &rarr; &Delta;</p>
+    <p>vamos adicionar alguns emojis: &#x1f600; &#x1f603; &#x1f604;</p>
+    <hr>
+    <h1>Testando carga e imagens</h1>
+    <p>Abaixo voce vai ver uma imagem que esta na mesma pasta</p>
+    <p><img src="logo/logo-html.png" alt="logo HTML"></p>
+    <p>Podemos tambem carregar imagens que estão em sub-pastas </p>
+    <p><img src="css/logo-css.png" alt="logo CSS"></p>
+    <p>tambem podemos carregar imagens externas</p>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/HTML5_Shiny_Icon.svg" alt="logo html"></p>
+    <hr>
+    <h1 class="conteudo">Hierarquia de titulos</h1>
+    <h2>Introduçao</h2>
+    <h3>Justificação da temàtica</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, rerum! Repellat aliquid possimus rem accusantium, praesentium, aperiam accusamus dolor numquam in tempora reprehenderit dignissimos molestias quam quod distinctio adipisci facere.</p>
+    <h3>Caràter execional</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat temporibus amet. Obcaecati tempora culpa dolorum dignissimos recusandae? Ipsum explicabo eveniet fuga quas deserunt earum obcaecati eum, voluptatem porro ullam!</p>
+    <h3>perguntas de partida</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem recusandae dolor minima facere reprehenderit totam fugit, possimus, doloribus sapiente porro perferendis delectus incidunt quod perspiciatis magnam aspernatur! Aut, fugiat.</p>
+    <h3>Metodologia de investigaçao</h3>
+    <h4>Etàpas de investigação</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, iste expedita deleniti molestias illo pariatur officia repudiandae aliquid deserunt unde. Nesciunt, rem id quibusdam enim earum accusamus eaque aliquid eos?</p>
+    <h4>Instrumentos de analize</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a sunt, porro error ipsum perferendis architecto quas rerum iste similique in eos odio ut consectetur repellat deleniti ad neque vero!</p>
+    <h2>Ordenamênto do territòrio em Portugal</h2>
+    <h3>Os instrumentos de gestão</h3>
+    <h4>Os instrumentos de planeamento</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum iusto quasi atque ipsam officia quod magnam. Nobis ut numquam tempore officia? Accusamus voluptatem cum facilis ipsum ab, praesentium amet.</p>
+    <h4>Os regimes territoriais</h4>
+    <hr>
+    <h1>Principais formataçoes</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>termo em <b>negrito</b> com a tag b (nao semântica)</p>
+    <p>termo em <strong>negrito</strong> com a tag strong (semantica)</p>
+    <h2>Itàlico / Ênfase</h2>
+    <p>termo em <i>Italico</i> com a tag i (nao semantica)</p>
+    <p>Termo em italico com a tag em (semantica)</p>
+    <h2>texto marcado</h2>
+    <p>Texto <mark>marcado</mark> usando a tag mark</p>
+    <h2>texto grande e pequeno</h2>
+    <h2>Texto <big>grande</big> e texto <small>pequeno</small></h2></p>
+    <h2>texto deletado</h2>
+    <p><del>Temos aqui um texto deletado</del></p>
+    <h2>texto inserido</h2>
+    <p><ins>Temos aqui um texto inserido</ins></p>
+    <h2>texto sobrescrito</h2>
+    <p>texto sobrescrito x<sup>10</sup>=x<sup>2</sup></p>
+    <h2>Texto subscrito H<sub>2</sub>O</h2>
+    <hr>
+    <h1>outras formataçoes</h1>
+    <h2>codigo-fonte / Prè-formataçao</h2>
+    <p>O comando <code>document.getElementById('teste')</code> è esacrito em linguagem JavaSvript</p>
+    <pre>
+        <p><code>
+        num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code></p>
+    </pre>
+    <h2>citaçoes simples</h2>
+    <p><q>O computador e um burro muito rapido</q></p>
+    <h2>Citaçoes completas</h2>
+    <p>Segundo Jeff noble, no seu livro HTML para leigos: <blockquote>A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto</blockquote>.</p>
+    <h2>Abreviaçoes</h2>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou estudando HTML e CSS</bdo></p>
+    <hr>
+    <h1>trabalhando com listas</h1>
+    <h2>listas ordenadas</h2> 
+    <ol type="i">
+        <li>acordar</li>
+        <li>ligar para o joão</li>
+        <li>tomar cafe</li>
+        <li>escovar os dentes</li>
+        <li>ir para a faculdade</li>
+    </ol>
+    <h2>Listas nao ordenadas</h2>
+    <ul type="square">
+        <li>pão</li>
+        <li>leite</li>
+        <li>tomate</li>
+        <li>alface</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol type="1">
+        <li>Antigas
+            <ol type="a">
+                <li>clipper</li>
+                <li>visual basic</li>
+                <li>fortran</li>
+                <li>delphi</li>
+            </ol>
+        </li>
+        <li>Novas
+            <ol type="a" start="5">
+                <li>php</li>
+                <li>python</li>
+                <li>javasvript</li>
+                <li>kotlin</li>
+            </ol>
+        </li>
+        <h2>Meus jogos favoritos</h2>
+        <ol>
+            <li>Nes
+                <ul type="square">
+                    <li>Mario bros
+                        <ul type="circle">
+                            <li>Mario bros 3</li>
+                            <li>Mario: lost levels</li>
+                        </ul>
+                    </li>
+                    <li>Ninja gaiden
+                    </li>
+                </ul>
+            </li>
+            <li>Snes
+                <ul type="square">
+                    <li>mario</li>
+                    <li>Donkei kong</li>
+                </ul>
+            </li>
+            <li>Playstation
+                <ul type="square">
+                    <li>Final fantasy</li>
+                    <li>castlevania</li>
+                </ul>
+            </li>
+        </ol>
+    </ol>
+    <h2>Listas de definiçoes</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcaçao para a criaçao do conteudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcaçao para a criaçao do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programaçao para a criaçao de interatividade de um site</dd> 
+    </dl>
+    <h1>usando links externos</h1>
+    <p>voce pode acessar <a href="https://youtube.com/CursoemVideo" target="_blank">meu canal do youtube</a></p>
+    <p>voce pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank">repositorio publico no github</a></p>
+    <h1>Usando links internos</h1>
+    <p>esta e a primeira pagina do site. Se voce quiser pode acessar tambem a <a href="pagina02.html">segunda pagina</a></p>
+    <p>Voce pode tambem acessar a nossa <a href="pagina3/pagina03.html">pagina de noticias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="app/Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="application/pdf"> Baixar o livro em pdf</a></li>
+        <li><a href="app/Ligações em toda parte.zip" download="Ligações em toda parte.zip" type="application/zip">Baixar o livro em zip</a></li>
+    </ul>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferente ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagen grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML 5</p>
+    <audio controls autoplay loop>
+        <source src="audio/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video width="300px" controls autoplay loop poster="imagens/foto-g.png">
+        <source src="vid/Meu-Video.mp4" type="video/mp4">
+        <source src="vid/Meu-Video.webm" type="video/webm">
+    </video>
+    <h1>Inseeindo videos do youtube</h1> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gwRHbGguq98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>     
+</html>
