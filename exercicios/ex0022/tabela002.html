@@ -10,11 +10,19 @@
         table {
             border-collapse: collapse;
             width: 450px;
+            position: relative;
         }
 
         thead, tfoot {
             background-color: rgb(61, 60, 60);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(61, 60, 60);
+
         }
 
         th {
