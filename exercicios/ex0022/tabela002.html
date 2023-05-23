@@ -13,7 +13,7 @@
         }
 
         thead, tfoot {
-            background-color: rgb(105, 105, 105);
+            background-color: rgb(61, 60, 60);
             color: white;
         }
 
@@ -32,6 +32,20 @@
             text-align: right;
         }
 
+        caption {
+            background-color: rgba(110, 110, 110, 0.774);
+            font-size: 25px;
+            padding: 7px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgb(182, 182, 182);
+        } 
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+
 
     </style>
 </head>
@@ -40,6 +54,8 @@
     <!--
         Anatomia para tabelas grandes
         Table
+            scope
+                col, row
             Thead
                 tr, td, th
             Tbody
@@ -49,9 +65,13 @@
     -->
 
     <table>
+        <caption>
+            Populaçao das unidades federativas
+        </caption>
+
         <thead>
-            <th>Unidade Federativa</th>
-            <th>Populaçao</th>
+            <th scope="col">Unidade Federativa</th>
+            <th scope="col" style="width: 80px;">Populaçao</th>
 
         </thead>
         <tbody>
@@ -189,8 +209,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de população</th>
-                <td><strong>252 827 546</strong></td>
+                <th scope="row">Total de população</th>
+                <td class="num"><strong>252 827 546</strong></td>
             </tr>
 
         </tfoot>
