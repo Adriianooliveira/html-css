@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body {
+
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: rgb(128, 128, 128);
+            color: white;
+        }
+
+        th.area {
+            background-color: white;
+            color: black;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 60px;
+    
+
+        }
+
+        td {
+
+        }
+
+        td.num {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 14</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Media</th>
+            </tr>
+
+            <tr>
+                <th>Nota 1</th>
+                <th>Notas 2</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th class="area" rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td class="num">9.0</td>
+                <td class="num">9.5</td>
+                <td class="num">8.8</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td class="num">8.8</td>
+                <td class="num">7.9</td>
+                <td class="num">9.3</td>
+            </tr>
+
+            <tr>
+                <td>Quimica</td>
+                <td class="num">8.9</td>
+                <td class="num">7.7</td>
+                <td class="num">8.8</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td class="num">9.3</td>
+                <td class="num">9.8</td>
+                <td class="num">8.5</td>
+            </tr>
+
+            <tr>
+                <th colspan="4">Media de exatas</th>
+                <td class="num">9.5</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
