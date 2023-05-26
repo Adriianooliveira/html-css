@@ -14,7 +14,7 @@
             border-collapse: collapse;
         }
 
-        th {
+        th  {
             background-color: rgb(128, 128, 128);
             color: white;
         }
@@ -28,8 +28,10 @@
             border: 1px solid black;
             padding: 10px;
             width: 60px;
-    
+        }
 
+        th.med {
+            text-align: left;
         }
 
         td {
@@ -39,6 +41,15 @@
         td.num {
             text-align: center;
         }
+
+        td.nm {
+            text-align: center;
+            background-color: rgb(128, 128, 128);
+            color: white;
+            font-weight: 900;
+
+        }
+
     </style>
 </head>
 <body>
@@ -46,10 +57,10 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2">Area</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Media</th>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Media</th>
             </tr>
 
             <tr>
@@ -60,7 +71,7 @@
         </thead>
         <tbody>
             <tr>
-                <th class="area" rowspan="4">Exatas</th>
+                <th class="area" rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matematica</td>
                 <td class="num">9.0</td>
                 <td class="num">9.5</td>
@@ -89,8 +100,28 @@
             </tr>
 
             <tr>
-                <th colspan="4">Media de exatas</th>
-                <td class="num">9.5</td>
+                <th colspan="4" class="med" scope="row">Média de Exatas</th>
+                <td class="nm">9.5</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" class="area" scope="rowgroup">Humanas</th>
+                <td>Historia</td>
+                <td>8.6</td>
+                <td>7.7</td>
+                <td>7.4</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>7.8</td>
+                <td>8.7</td>
+                <td>7.9</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="med" scope="row">Média de Humanas</th>
+                <td class="nm">9.2</td>
             </tr>
 
         </tbody>
