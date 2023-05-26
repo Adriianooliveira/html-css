@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            padding: 5px;
+            font-weight: 900;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.a {
+            background-color: rgb(212, 197, 119);
+        }
+
+        col.b {
+            background-color: rgb(206, 191, 58);
+        }
+
+        col.c {
+            background-color: rgb(148, 146, 23);
+        }
+
+
+
+ 
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="a">
+            <col class="b" span="2">
+            <col class="c">
+
+        </colgroup>
+
+        <caption>
+
+            Cadastro
+        </caption>
+        
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+
+            <tr>
+                <td>Claudio</td>
+                <td>M</td>
+                <td>27</td>
+                <td>futebool</td>
+            </tr>
+
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>37</td>
+                <td>gaymer</td>
+            </tr>
+
+            <tr>
+                <td>Helio</td>
+                <td>M</td>
+                <td>38</td>
+                <td>corretor</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>45</td>
+                <td>estilista</td>
+            </tr>
+
+            <tr>
+                <td>Otavio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>professor</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
