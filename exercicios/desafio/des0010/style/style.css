@@ -9,11 +9,11 @@
   }
 :root {
     --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor1: #2aa31fad;
+    --cor2: #0a4b12;
+    --cor3: #0a4109;
+    --cor4: #052c0a;
+    --cor5: #011404;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
@@ -98,6 +98,7 @@ main h1 {
     color: var(--cor5);
     font-family: var(--font-android);
     font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
 main  h2 {
@@ -117,7 +118,7 @@ main p {
 }
 
 main strong {
-    color: var(--cor3);
+    color: var(--cor4);
     font-weight: 900px;
     padding: 2px 5px;
 }
@@ -127,6 +128,7 @@ main a {
     background-color: var(--cor2);
     padding: 2px 4px;
     font-weight: 900;
+    color: white;
 
 }
 
@@ -176,7 +178,7 @@ aside h3 {
 }
 
 aside {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 4px black;
@@ -184,7 +186,7 @@ aside {
 
 
 footer {
-    color: white;
+    color: rgb(40, 172, 8);
     background-color: var(--cor4);
     text-align: center;
     padding: 7px;
@@ -199,5 +201,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor1);
 }
